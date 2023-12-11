@@ -3,7 +3,7 @@ html{
 }
 .fullscreen-landing{
 
-    background: white url("../../images/") no-repeat scroll center;
+    background: white url("../../images/FaceScan-app-concept.gif") no-repeat scroll center;
     height: 100vh;
     background-size: cover;
 }
@@ -29,4 +29,8 @@ html{
     .search-box{
         width: 300px;
     }
+}
+#experience{
+    background: white url("../../images/back.jpg") no-repeat scroll center;
+    
 }
