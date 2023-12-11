@@ -1,0 +1,32 @@
+html{
+    scroll-behavior:smooth;
+}
+.fullscreen-landing{
+
+    background: white url("../../images/") no-repeat scroll center;
+    height: 100vh;
+    background-size: cover;
+}
+.overlay{
+    background-color: rgba(0,0,0, 0.5);
+    height:100%;
+}
+.search-box{
+    border-radius: 80px;
+     height: 40px;
+     width: 250px;
+}
+.subscribe-section{
+    background: white url("../../images/pexels-alexander-grey-1209843.jpg") no-repeat scroll center;
+    
+    background-size: cover;
+}
+.subscribe-overlay{
+    background-color: rgba(0,0,0, 0.5);
+    height:100%;
+}
+@media (max-width:576px){
+    .search-box{
+        width: 300px;
+    }
+}
